@@ -21,3 +21,18 @@ cd gobi-gwas
 cd notebooks
 jupyter lab
 ```
+## No Python on your laptop? Run the tutorial on Google Colab
+
+For convenience, both notebooks are also available as Google Colab notebooks. Nothing has to be installed:
+every notebook starts with a **Setup** cell that installs what is needed and downloads the data.
+
+| Notebook | Open in Colab |
+|---|---|
+| 1 – Linear regression, LRT, power | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1QuYftKfi5LjcRH-OiCaym6q3W3oSfScn) |
+| 2 – GWAS on 1000 Genomes chr22 + GCTA | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1izU9V6HU7PT4cMVC3zm7FkooSaZRBxE6) |
+
+1. Click the badge (you need a Google account).
+2. **File → Save a copy in Drive**, so that your work is saved.
+3. Run the Setup cell(s) at the top. Notebook 2 downloads the chromosome-22 data and the GCTA/PLINK
+   binaries; this takes a few minutes the first time in a session.
+4. Work through the notebook as usual. If Colab disconnects, just re-run the Setup cells.
